@@ -11,3 +11,4 @@ vol_vals = double(vol);
 
 save(fullfile(niftiFolder, 'PETimg.mat'), 'vol_vals');
 fprintf('Saved 3D volume from file %s\n', files(1).name);
+
